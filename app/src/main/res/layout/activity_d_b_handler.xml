@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DB_handler"
+    android:id="@+id/dataEntry">
+
+    <!-- <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="70dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+         <EditText
+             android:id="@+id/insert_title"
+             android:layout_width="350dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:hint="Enter Title eg Water Leakage"
+             android:inputType="text"
+             android:textColorHint="#249A8E" />
+
+         <EditText
+             android:id="@+id/insert_description"
+             android:layout_width="350dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="10dp"
+             android:hint="Enter Description"
+             android:inputType="text|textMultiLine"
+             android:maxLength="500"
+             android:minLines="2"
+             android:scrollbars="vertical"
+             android:scrollHorizontally="false"
+             android:textColorHint="#249A8E" />
+
+         <Button
+             android:id="@+id/btn_capture"
+             android:layout_width="350dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="10dp"
+             android:background="#249A8E"
+             android:text="Capture Image"
+             android:textColor="#fff" />
+
+         <ImageView
+             android:id="@+id/ImageCapture"
+             android:layout_width="match_parent"
+             android:layout_height="250dp" />
+
+     <Button
+         android:id="@+id/btn_add_complaint"
+         android:layout_width="350dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginTop="20dp"
+         android:background="#249A8E"
+         android:text="Add Complaint"
+         android:textColor="#fff"
+         />
+         </LinearLayout>
+     </ScrollView>-->
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/insert_title"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Enter Title eg Water Leakage"
+                android:inputType="text"
+                android:textColorHint="#249A8E" />
+
+            <EditText
+                android:id="@+id/insert_description"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Description"
+                android:inputType="text|textMultiLine"
+                android:maxLength="500"
+                android:minLines="2"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:textColorHint="#249A8E" />
+
+
+
+            <ImageView
+                android:id="@+id/ImageCapture"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btn_capture"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="0dp"
+                android:background="#249A8E"
+                android:text="Capture Image"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_add_complaint"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="10dp"
+        android:background="#249A8E"
+        android:text="Add Complaint"
+        android:textColor="#fff"
+        />
+</LinearLayout>
